@@ -10,6 +10,6 @@ resource "azurerm_api_management" "apim" {
   publisher_name        = var.publisherName
   publisher_email       = var.publisherEmail
 
-  sku_name              = "Developer_1"  
+  sku_name              = "Developer_1"    
 }
 
