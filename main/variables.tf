@@ -19,3 +19,19 @@ variable "publisherName" {
 variable "publisherEmail" {
     type = string
 }
+
+variable subscriptionId {
+    type = string
+}
+
+variable clientId {
+    type = string
+}
+
+variable clientSecret {
+    type = string    
+}
+
+variable tenantID {
+    type = string
+}
