@@ -17,7 +17,7 @@ resource "azurerm_api_management_api_operation_policy" "mockPolicy" {
   api_name              = azurerm_api_management_api.hello.name
   api_management_name   = var.apimName
   resource_group_name   = var.resourceGroupName
-  operation_id          = "hello-api"
+  operation_id          = "hello"
 
   xml_content = <<XML
 <policies>
